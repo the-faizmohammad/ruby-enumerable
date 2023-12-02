@@ -1,80 +1,87 @@
 
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a>
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Enumerable ](#-enumerable-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [👥 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 [Enumerables] <a name="Enumerables"></a>
 
-# 📖 Enumerable <a name="about-project"></a>
-
-**Enumerable**  this project implements a subset of the functionality of Enumerable.
+**[Enumerables]** a module implementation that implements a subset of the functionality of the Enumerable module in Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- Ruby
-
-<!-- Features -->
+<details>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- Create a module MyEnumerable that implents the functionality as methods in #all?
-- Create a module MyEnumerable that implents the functionality as methods in #any?
-- Create a module MyEnumerable that implents the functionality as methods in #filter
+- **[MyList class that inherites from MyEnumerable module]**
+- **[MyEnumerable module]**
+- **[Using The all? any? and filter? methods from the MyEnumerable module ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Getting Started
+> Describe how a new developer could make use of your project.
 
-To get started with the Enumerable, follow the steps below:
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-Before running this project, make sure you have the following prerequisites installed:
 
-- Ruby
+In order to run this project you need:
 
-### Installation
-
-1. Clone this repository to your desired folder:
+Example command:
 
 ```sh
-git clone https://github.com/brighton0102/enumerable
+ rbenv install 3.0.1
 ```
 
-2. Navigate to the project directory:
+### Setup
+
+Clone this repository to your desired folder:
+
+Example commands:
 
 ```sh
-cd enumerable
+  cd my-folder
+  git https://github.com/enocol/enumerable
 ```
-3. Run the program:
+
+### Usage
+
+To run the project, execute the following command:
+
+Example command:
 
 ```sh
-ruby enumerable.rb
+  ruby myList.rb
 ```
+
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
-## 👥 Author <a name="author"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **brighton mtandi**
 
@@ -88,47 +95,38 @@ ruby enumerable.rb
 - Linkdin: [@linkdinhandle](https://www.linkedin.com/in/faiz-mohammad-967354142/)
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🔭 Future Features <a name="Additional Enumerable methods"></a>
-
-- **Add Account System**
+- [ ] **[Implement other methods]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/brighton0102/enumerable/issues).
+Feel free to check the [issues page](https://github.com/the-faizmohammad/ruby-enumerable/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can share this project to your friend
+> Write a message to encourage readers to support your project
+
+If you like this project give us a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for this project
+I would like to thank Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is licensed under the [MIT License](https://github.com/brighton0102/enumerable/blob/dev/LICENSE).
+This project is [MIT](https://github.com/the-faizmohammad/ruby-enumerable/blob/enumerable-list/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
